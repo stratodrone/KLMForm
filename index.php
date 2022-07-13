@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+	mail(troy@stratodronesolutions,com", "New Form",
+	$_POST["TAKE THIS"]. "From: troywsullivan44@gmail.com");
+	} 
+?>
 <!DOCTYPE html>
 <html>
 <head>
